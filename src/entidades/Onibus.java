@@ -13,7 +13,7 @@ public class Onibus extends Transporte {
         } else {
             System.out.println("Saldo insuficiente. Recarregue o cartão para cobrar a passagem.");
         }
-    } // valor da passagem nao esta sendo descontada
+    } // criei uma varivavel pro novo valor. agora o valor da passagem descontada nesta operação. porém na classe usuario o valor não é atualizado
 
     public double getPassagem() {
         return passagem;
