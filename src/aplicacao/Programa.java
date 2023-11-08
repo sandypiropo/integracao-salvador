@@ -44,9 +44,6 @@ public class Programa {
                     break;
                 case 1:
                     onibus.cobrarPassagem(usuario);
-                    System.out.println("Pegando ônibus, passagem cobrada: " + onibus.getPassagem());
-                    System.out.println("Novo saldo: " + usuario.getCredito());
-                    // valor do credito nao esta sendo atualizado
                     System.out.println(usuario);
                     break;
                 case 2:

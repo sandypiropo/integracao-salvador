@@ -45,7 +45,8 @@ public class Usuario {
     }
 
     public double getCredito() {
-        return credito;
+
+        return this.credito;
     }
 
     public void setCredito(double valorPassagem) {
@@ -53,27 +54,31 @@ public class Usuario {
     }
 
     public double getValorRecarga() {
-        return valorRecarga;
+
+        return this.valorRecarga;
     }
 
     public void setValorRecarga(double valorRecarga) {
+
         this.valorRecarga = valorRecarga;
     }
 
     public int getIdCartao() {
-        return idCartao;
+
+        return this.idCartao;
     }
 
     public void setIdCartao(int idCartao) {
+
         this.idCartao = idCartao;
     }
 
     @Override
     public String toString() {
         return "Usuario " +
-                "idCartao = " + idCartao +
-                ", credito = " + credito +
-                ", valor Recarga =" + valorRecarga;
+                "idCartao = " + this.idCartao +
+                ", credito = " + this.credito +
+                ", valor última Recarga =" + this.valorRecarga;
     }
 
 }
